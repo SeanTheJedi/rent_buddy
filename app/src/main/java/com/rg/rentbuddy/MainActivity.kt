@@ -14,7 +14,7 @@ import org.checkerframework.checker.units.qual.t
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
-    private var TAG = "Main View"
+    private var TAG = "Main View or Home"
 
     private lateinit var binding:ActivityMainBinding
 
