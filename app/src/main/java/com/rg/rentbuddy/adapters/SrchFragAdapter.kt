@@ -1,5 +1,6 @@
 package com.rg.rentbuddy.adapters
 
+import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
@@ -9,7 +10,8 @@ import com.rg.rentbuddy.fragments.MapView
 
 class SrchFragAdapter (
     fragmentManager: FragmentManager,
-    lifecycle: Lifecycle
+    lifecycle: Lifecycle,
+    var keyword: String
 ) : FragmentStateAdapter (fragmentManager, lifecycle) {
 
     override fun getItemCount(): Int {
@@ -17,10 +19,19 @@ class SrchFragAdapter (
     }
 
     override fun createFragment(position: Int): Fragment {
-        return if (position == 0)
-            ListView()
-        else
-            MapView()
+        if (position == 0) {
+            var fragment = ListView()
+            val args = Bundle()
+            args.putString("keyword", keyword)
+            fragment.arguments = args
+            return fragment
+        } else {
+            return  MapView()
+        }
+
+
+
+
     }
 
 }

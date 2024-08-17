@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "995691341352",
+    "project_id": "g11-tenant",
+    "storage_bucket": "g11-tenant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995691341352:android:73a52dbece455f3ac7771d",
+        "android_client_info": {
+          "package_name": "com.rg.rentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMuNi-snnDz7oHJO-MpmNbOp8NmnCWgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995691341352:android:36c130bebc555ffdc7771d",
+        "android_client_info": {
+          "package_name": "com.rg.rentapp_tenant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMuNi-snnDz7oHJO-MpmNbOp8NmnCWgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995691341352:android:7ed659d061e69a8bc7771d",
+        "android_client_info": {
+          "package_name": "com.rg.rentbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMuNi-snnDz7oHJO-MpmNbOp8NmnCWgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
